@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--icons link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!--styles link-->
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--Navigation Bar-->
+    <nav>
+        <div class="profile-name">
+            <img src="./images/My passport photo.jpeg" alt="Kelechi-profile-pic" >
+            <h1 class="name">Kelechi Eze</h1>
+        </div>
+
+         <!--Hidden Checkbox-->
+        <input type="checkbox" id="menu-toggle">
+
+        <!--Hamburger-->
+        <label for="menu-toggle" class="hamburger"><img src="https://img.icons8.com/?size=100&id=12371&format=png&color=000000" alt="hamburger-icon" class="hamburger-icon"></label>
+
+        <!--Menu-->
+        <ul class="menu-items">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about-me">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contacts</a></li>
+        </ul>
+
+    </nav>
+
+    <!--Hero-Section-->
+    <section class="hero" id="home">
+        <div class="hero-texts">
+            <h2 class="hero-heading">I am Kelechi Eze</h2>
+            <h4>Aspiring Fullstack Developer</h4>
+            <p class="hero-desc">I'm an aspiring fullstack web Developer based in Lagos, Nigeria, I take pride in building beautiful and responsive web applications through thoroughly organized codes focusing on user satisfaction</p>
+
+           <a href="https://github.com/ckelechieze"><button>View My Works</button></a>
+        </div>
+
+        <img src="./images/KC.PNG" alt="Kelechi Photo" class="kelechi-photo">
+    </section>
+
+    <!--About me section-->
+    <section class="about-me" id="about-me">
+        <h2>About Me</h2>
+        <p>My name is Kelechi Eze, an aspiring fullstack web developer passionate about building user friendly web applications while focusing on user satisfaction.</p>
+        <p>I am a graduate of University of Nigeria, Nsukka where I studied Mechanical Engineering. Currently, I am training with Turing Tech LLC where I am actively learning fullstack web developement and AI fundamentals</p>
+    </section>
+
+    <!--Skills Section-->
+    <section class="skills-section" id="skills">
+        <h2>My Skills</h2>
+        <p>In the course of my trainings, I have acquired the following core skills</p>
+
+        <div class="skills-grid">
+            <div class="card">
+                <img src="https://img.icons8.com/?size=100&id=CjaWgkxWs8FF&format=png&color=000000" alt="HTML icon">
+                <h4>HTML</h4>
+            </div>
+
+            <div class="card">
+                <img src="https://img.icons8.com/?size=100&id=g1UMGWyT4yZa&format=png&color=000000" alt="css icon">
+                <h4>CSS</h4>
+            </div>
+
+            <div class="card">
+                <img src="https://img.icons8.com/?size=100&id=WoopfRcDj3RF&format=png&color=000000" alt="tailwind icon">
+                <h4>TAILWIND</h4>
+            </div>
+
+            <div class="card">
+                <img src="https://img.icons8.com/?size=100&id=63777&format=png&color=000000" alt="git icon">
+                <h4>GIT</h4>
+            </div>
+        </div>
+    </section>
+
+    <!--Projects Section-->
+    <section class="my-projects" id="projects">
+        <h2>My Projects</h2>
+
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="./images/product-card photo.png" alt="product-card">
+                <h4>Product Card</h4>
+                <p>This is a card showing a product</p>
+                <p class="tech">HTML and CSS</p>
+                <a href="https://ckelechieze.github.io/ecommerce-product--page/">click to view</a>
+            </div>
+
+            <div class="project-card">
+                <img src="images/product-preview.png" alt="product-card">
+                <h4>Product Card</h4>
+                <p>This is a card showing a product</p>
+                <p class="tech">HTML and CSS</p>
+                <a href="https://ckelechieze.github.io/product-preview-card/">click to view</a>
+            </div>
+
+            <div class="project-card">
+                <img src="./images/rating component.png" alt="product-card">
+                <h4>Product Card</h4>
+                <p>This is a card showing a product</p>
+                <p class="tech">HTML and CSS</p>
+                <a href="https://github.com/ckelechieze/interactive-rating-component.git">click to view</a>
+            </div>
+
+            <div class="project-card">
+                <img src="./images/naija autos.png" alt="product-card">
+                <h4>Product Card</h4>
+                <p>This is a card showing a product</p>
+                <p class="tech">HTML and CSS</p>
+                <a href="https://github.com/ckelechieze/group25-project2.git">click to view</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact-Section-->
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <p>Please use the form below to send me a message</p>
+
+        <form action="post">
+            <label for="name">Name:
+                <input type="text" id="name">
+            </label>
+
+            <label for="email">Email:
+                <input type="email" id="email">
+            </label>
+
+            <label for="message">Message:
+                <textarea name="message" id="message"></textarea>
+            </label>
+
+            <button>Submit</button>
+        </form>
+
+        <div class="social-media">
+            <p>Follow me on my social media handles</p>
+            <div class="icons">
+            <a href="https://www.facebook.com/eze.cornelius.75/" target="_blank"><img src="https://img.icons8.com/?size=100&id=13912&format=png&color=000000" alt="facebook-icon"></a>
+            <a href="" target="_blank"><img src="https://img.icons8.com/?size=100&id=phOKFKYpe00C&format=png&color=000000" alt="x-icon"></a>
+            <a href="" target="_blank"><img src="https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000" alt="linkedin-icon"></a>
+            <a href="https://github.com/ckelechieze" target="_blank"><img src="https://img.icons8.com/?size=100&id=3tC9EQumUAuq&format=png&color=000000" alt="github-icon"></a>
+            <a href="wa.link/k1t3aa" target="_blank"><img src="https://img.icons8.com/?size=100&id=16713&format=png&color=000000" alt="whatsapp-icon"></a>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-Section-->
+    <footer>
+        <p>&copy; Kelechi Eze. All rights reserved.</p>
+    </footer>
+</body>
+</html>
